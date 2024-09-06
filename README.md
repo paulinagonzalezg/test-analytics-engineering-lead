@@ -12,10 +12,12 @@ Tu equipo de Analytics Engineering está trabajando con un pipeline de datos cla
 
 El equipo tiene el 80% de su capacidad dedicada a tareas prioritarias de la unidad de negocio fuera de tu alcance, dejando solo el 20% disponible para abordar la optimización de este pipeline.
 
-#### Objetivo:
-Diseña una estrategia de optimización para este pipeline con el tiempo y recursos disponibles. Tu objetivo es reducir la frecuencia de fallos y minimizar el impacto en el tiempo de intervención manual, generando un uso eficiente de los recursos.
+#### Objetivos:
+1. Diseña una estrategia de optimización para este pipeline legado con el tiempo y recursos disponibles. Se debe reducir la frecuencia de fallos y minimizar el impacto en el tiempo de intervención manual, generando un uso eficiente de los recursos.
+2. Diseña una arquitectura tecnológica moderna para la migración futura de este pipeline.
 
 #### Información clave:
+- No se tiene restricciones tecnológicas o de licenciamientos por herramientas.
 - El pipeline gestiona una gran cantidad de datos provenientes de múltiples fuentes.
 - Las fallas ocurren esporádicamente debido a la latencia y a problemas con la calidad de los datos de algunas fuentes.
 - Las intervenciones manuales actuales consisten en verificar logs y reiniciar el proceso cuando los datos fallan en cargarse correctamente.
